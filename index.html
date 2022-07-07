@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script>
+      function playSound(name) {
+        console.log(name);
+        const sound = document.getElementById(name);
+        sound.play();
+    }
+    </script>
+    <audio src="tunes/A4.mp3" id="A"></audio>
+    <audio src="tunes/Ab4.mp3" id="Ab"></audio>
+    <audio src="tunes/B4.mp3" id="B"></audio>
+    <audio src="tunes/Bb4.mp3" id="Bb"></audio>
+    <audio src="tunes/C4.mp3" id="C"></audio>
+    <audio src="tunes/D4.mp3" id="D"></audio>
+    <audio src="tunes/Db4.mp3" id="Db"></audio>
+    <audio src="tunes/E4.mp3" id="E"></audio>
+    <audio src="tunes/Eb4.mp3" id="Eb"></audio>
+    <audio src="tunes/F4.mp3" id="F"></audio>
+    <audio src="tunes/G4.mp3" id="G"></audio>
+    <audio src="tunes/Gb4.mp3" id="Gb"></audio>
+    <title>Piano</title>
+</head>
+<body>
+    <div class="board">
+        <a onclick="playSound('A');">
+          <div data_key="A" class="w_button">
+              <h1>A</h1>
+          </div>
+        </a>
+        <a onclick="playSound('Ab');" class="b_button">
+        </a>
+        <a onclick="playSound('B');">
+          <div data-key="B" class="w_button">
+            <h1>B</h1>
+          </div>
+        </a>
+        <a onclick="playSound('Bb');"  class="b_button"></a>
+        <a onclick="playSound('C');">
+        <div data-key="C" class="w_button">
+          <h1>C</h1>
+        </div>
+        </a>
+        <a onclick="playSound('D');">
+          <div data-key="D" class="w_button">
+            <h1>D</h1>
+          </div>
+        </a>
+        <a onclick="playSound('Db');" class="b_button"></a>
+        <a onclick="playSound('E');">
+        <div data-key="E" class="w_button">
+          <h1>E</h1>
+        </div>
+        </a>
+        <a onclick="playSound('Eb');" class="b_button"></a>
+        <a onclick="playSound('F');">
+        <div data-key="F" class="w_button">
+          <h1>F</h1>
+        </div>
+        </a>
+        <a onclick="playSound('G');">
+        <div data-key="G" class="w_button">
+          <h1>G</h1>
+        </div>
+        </a>
+        <a onclick="playSound('Gb');" class="b_button">
+        <a onclick="playSound('Gb');"></a>
+        <div data-key="Gb" class="w_button">
+          <h1>Gb</h1>
+        </div>
+      </a>
+      </div>
+</body>
+</html>
+
+
+
+
+
+
+
+
